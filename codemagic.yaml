@@ -5,9 +5,6 @@ workflows:
     max_build_duration: 60
     environment:
       flutter: stable
-      xcode: latest
-      vars:
-        FLUTTER_BUILD_MODE: release
     scripts:
       - name: Build iOS Release
         script: |
