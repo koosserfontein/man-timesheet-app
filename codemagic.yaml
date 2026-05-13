@@ -6,6 +6,8 @@ workflows:
     environment:
       flutter: stable
       xcode: latest
+      vars:
+        FLUTTER_BUILD_MODE: release
     scripts:
       - name: Build iOS Release
         script: |
